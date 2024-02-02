@@ -1,0 +1,88 @@
+img {
+   
+    width: 40%;
+    border:10px;
+    padding:5px; 
+    margin: 0 10px;
+    border-radius: 5%;
+}
+h1 {
+    font-size: 50px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+  
+p {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+img {
+    float:left;
+}
+body {
+    background-color: #E8D8C4;
+}
+.font {
+    font-family: Helvetica, sans-serif;   
+}
+
+#one {
+height: 50%
+}
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+}
+h1 {
+  background: -webkit-linear-gradient( #65B741, #0B60B0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#italy {
+    background: -webkit-linear-gradient( red, gray,green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#uk {
+    background: -webkit-linear-gradient( red,gray,  blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: black;
+
+}
+#romania {
+    background: -webkit-linear-gradient( blue, yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#colombia {
+    background: -webkit-linear-gradient( yellow, blue, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media (max-width:1250px) {
+    .image {
+        display: inline-flex;
+    }
+    .font {
+        display:inline-flex;
+    }
+}
